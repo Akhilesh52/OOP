@@ -10,7 +10,6 @@ public class EvenOddChecker {
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
 
-        // Check if the number is even or odd
         if (number % 2 == 0) {
             System.out.println("The number is even.");
         } else {
